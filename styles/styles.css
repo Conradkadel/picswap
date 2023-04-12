@@ -113,3 +113,27 @@ footer p {
     font-weight: bold;
     text-align: center;
 }
+
+@media only screen and (max-width: 966px){
+    .imagecarousel {
+        max-width: 100%;
+    }
+    header img {
+        float: none;
+    }
+    header h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+    body {
+        border: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .imagecarousel {
+        max-width: 150px;
+    }
+}
